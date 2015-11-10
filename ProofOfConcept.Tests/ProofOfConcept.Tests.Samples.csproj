@@ -60,7 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ProofOfConcept.ComponentTests\ProofOfConcept.Tests.Component.csproj">
-      <Project>{290EBD1C-629E-432C-B943-D8E32DBDC30E}</Project>
+      <Project>{290ebd1c-629e-432c-b943-d8e32dbdc30e}</Project>
       <Name>ProofOfConcept.Tests.Component</Name>
     </ProjectReference>
     <ProjectReference Include="..\ProofOfConcept.Selenium\ProofOfConcept.Selenium.csproj">

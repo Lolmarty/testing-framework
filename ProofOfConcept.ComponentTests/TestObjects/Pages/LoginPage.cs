@@ -33,7 +33,24 @@ namespace ProofOfConcept.Tests.Component.TestObjects.Pages
 
     public class DealSearchFilters : IContainer
     {
-        
+        [FindBy(How.Id, "startDate")]
+        public HtmlTextField StartDateField;
+
+        [FindBy(How.Id, "endDate")]
+        public HtmlTextField EndDateField;
+
+        [FindBy(How.Id, "assetTypeId")]
+        public HtmlDropDown AssetClassDropDown;
+
+        [FindBy(How.Id, "industryID")]
+        public HtmlDropDown IndustryTypeDropDown;
+
+        [FindBy(How.Id, "dealTypeId")]
+        public HtmlDropDown DealTypeDropDown;
+
+        [FindBy(How.TagName, "button")]
+        [HasAttribute("type", "reset")] 
+        public HtmlButton ResetFiltersButton;
     }
 
     public class DealSearchField : IContainer

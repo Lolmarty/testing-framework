@@ -29,13 +29,13 @@ namespace ProofOfConcept.Tests.Samples.Behaviors
             var textValue = "Hello, World!";
             _dashboard.DealAccessCode.SetText(textValue);
 
-            Assert.Equals(textValue, ((IWebElement)_dashboard.DealAccessCode.NativeElement).Text);
+            Assert.AreEqual(textValue, ((IWebElement)_dashboard.DealAccessCode.NativeElement).GetAttribute("value"));
         }
 
         [TestMethod]
         public void GetTextTest()
         {
-            Assert.Equals(_dashboard.DealAccessCode.GetText(), ((IWebElement)_dashboard.DealAccessCode.NativeElement).Text);
+            Assert.AreEqual(_dashboard.DealAccessCode.GetText(), ((IWebElement)_dashboard.DealAccessCode.NativeElement).GetAttribute("value"));
         }
 
         [TestMethod]
@@ -57,7 +57,7 @@ namespace ProofOfConcept.Tests.Samples.Behaviors
             var textValue = "Hello, World!";
             _dashboard.DealAccessCode.SetText(textValue);
 
-            Assert.Equals(textValue, _dashboard.DealAccessCode.GetText());
+            Assert.AreEqual(textValue, _dashboard.DealAccessCode.GetText());
 
             _dashboard.DealAccessCode.Clear();
             Assert.IsTrue(string.IsNullOrEmpty(_dashboard.DealAccessCode.GetText()));

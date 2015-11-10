@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfConcept", "ProofOfConcept\ProofOfConcept.csproj", "{DD19B448-FEB7-40A8-A235-7E23B8D04BBC}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfConcept.Tests.Unit", "ProofOfConcept.UnitTests\ProofOfConcept.Tests.Unit.csproj", "{7DC92F62-6E78-4853-980F-7AD0EF3F6BE2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfConcept.Tests.Component", "ProofOfConcept.ComponentTests\ProofOfConcept.Tests.Component.csproj", "{290EBD1C-629E-432C-B943-D8E32DBDC30E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfConcept.Tests.RoadshowAccess", "ProofOfConcept.Tests.RoadshowAccess\ProofOfConcept.Tests.RoadshowAccess.csproj", "{669D02D8-1908-4EBE-90FE-B06B3F642E77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{290EBD1C-629E-432C-B943-D8E32DBDC30E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{290EBD1C-629E-432C-B943-D8E32DBDC30E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{290EBD1C-629E-432C-B943-D8E32DBDC30E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669D02D8-1908-4EBE-90FE-B06B3F642E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669D02D8-1908-4EBE-90FE-B06B3F642E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669D02D8-1908-4EBE-90FE-B06B3F642E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669D02D8-1908-4EBE-90FE-B06B3F642E77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

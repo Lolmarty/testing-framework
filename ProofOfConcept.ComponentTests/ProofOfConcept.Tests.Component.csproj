@@ -67,19 +67,26 @@
     <Compile Include="TestObjects\Contexts\ContextBase.cs" />
     <Compile Include="TestObjects\Contexts\InvestorContext.cs" />
     <Compile Include="TestObjects\Contexts\LoginContext.cs" />
+    <Compile Include="TestObjects\Contexts\RetailSiteContext.cs" />
+    <Compile Include="TestObjects\Contexts\RetailDashboardContext.cs" />
     <Compile Include="TestObjects\Elements\HtmlButton.cs" />
     <Compile Include="TestObjects\Elements\HtmlCheckBox.cs" />
     <Compile Include="TestObjects\Elements\HtmlDropDown.cs" />
     <Compile Include="TestObjects\Elements\HtmlRadioButton.cs" />
+    <Compile Include="TestObjects\Elements\HtmlTable.cs" />
     <Compile Include="TestObjects\Elements\HtmlTextField.cs" />
     <Compile Include="TestObjects\Pages\InvestorDashboardPage.cs" />
     <Compile Include="TestObjects\Pages\LoginPage.cs" />
+    <Compile Include="TestObjects\Pages\RetailDashboardPage.cs" />
+    <Compile Include="TestObjects\Pages\RetailSitePage.cs" />
     <Compile Include="TestTemplates\UiTest.cs" />
     <Compile Include="TestTemplates\UiTestDriverClosedBetweenTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
